@@ -6,8 +6,8 @@ int e = 6;
 
 int max = a;
 
-if (b > max) max = a;
-if (c > max) max = b;
+if (b > max) max = b;
+if (c > max) max = c;
 if (d > max) max = d;
 if (e > max) max = e;
 
